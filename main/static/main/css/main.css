@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(229, 223, 217);
+}
+
+aside{
+    float: left;
+    background:rgb(112, 109, 109);
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color:aliceblue;
+    border-right: 5px solid #8d5050;
+}
+aside img{
+    width: 80px;
+    float: left;
+}
+
+aside .logo{
+    font-size: 40px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top:-5px;
+}
+
+aside h3 {
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+aside ul {
+    list-style: none;
+}
+aside ul li { 
+    color: aliceblue;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover{
+    color:blueviolet;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features{
+    float:left;
+    color:rgb(0, 0, 0);
+    margin-top: 100px;
+    text-align: center;
+    width: 90%;
+}
+
+main .features h1 {font-size: 100px;}
+main .features p {max-width: 480px; margin: 20px auto;}
